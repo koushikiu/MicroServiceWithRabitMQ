@@ -11,7 +11,7 @@ namespace MicroRabit.Domain.Core.Bus
     {
         Task SendCommand<T>(T command) where T : Command;
         void Puslish<T>(T @event) where T : Event;
-        Task Subscribe<T, TH>()
+        void Subscribe<T, TH>()
             where T : Event
             where TH : IEventHandler<T>;
     }
