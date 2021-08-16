@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabit.Domain.Core", "MicroRabit.Domain.Core\MicroRabit.Domain.Core.csproj", "{FEC36D4F-9774-438A-A5D2-5C015D26F268}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabit.Infra.Bus", "MicroRabit.Infra.Bus\MicroRabit.Infra.Bus.csproj", "{08F07555-06FD-4992-AD49-DB3500FB42B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabit.Infra.Bus", "MicroRabit.Infra.Bus\MicroRabit.Infra.Bus.csproj", "{08F07555-06FD-4992-AD49-DB3500FB42B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabit.Infra.IoC", "MicroRabbit.Infra.IoC\MicroRabit.Infra.IoC.csproj", "{BCA672F7-986A-433A-8E93-06EB24FD20B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{08F07555-06FD-4992-AD49-DB3500FB42B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08F07555-06FD-4992-AD49-DB3500FB42B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08F07555-06FD-4992-AD49-DB3500FB42B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA672F7-986A-433A-8E93-06EB24FD20B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA672F7-986A-433A-8E93-06EB24FD20B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA672F7-986A-433A-8E93-06EB24FD20B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA672F7-986A-433A-8E93-06EB24FD20B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FEC36D4F-9774-438A-A5D2-5C015D26F268} = {2AC54016-4C41-49B4-9293-4953080C5EB7}
 		{08F07555-06FD-4992-AD49-DB3500FB42B5} = {CA3D5532-A234-4649-82BD-E5D8F949D949}
+		{BCA672F7-986A-433A-8E93-06EB24FD20B5} = {745F378F-A35B-4B3A-8FA0-997CC0D72EC7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7819FECB-236B-4941-939F-D06389375293}
