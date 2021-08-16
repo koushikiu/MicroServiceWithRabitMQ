@@ -18,8 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Context\" />
-    <Folder Include="Repositpry\" />
+    <ProjectReference Include="..\MicroRabit.Banking.Domain\MicroRabit.Banking.Domain.csproj" />
   </ItemGroup>
 
 </Project>
