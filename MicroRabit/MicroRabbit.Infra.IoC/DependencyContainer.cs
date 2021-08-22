@@ -1,4 +1,6 @@
-﻿using MicroRabit.Banking.Application.services;
+﻿using MediatR;
+using MicroRabit.Banking.Application.services;
+using MicroRabit.Banking.Data.Context;
 using MicroRabit.Banking.Data.Repositpry;
 using MicroRabit.Domain.Core.Bus;
 using MicroRabit.Infra.Bus;
@@ -17,11 +19,12 @@ namespace MicroRabit.Infra.IoC
             services.AddTransient<IEventBus, RabitMQBus>();
 
             //ApplicationService
+      
             services.AddTransient<IAccountService, AccountService>();
 
             //Data
-
             services.AddTransient<IAccountRepository, AccountRepository>();
+            services.AddTransient<BankingDbContext>();
         }
     }
 }

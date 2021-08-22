@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace MicroRabit.Infra.Bus
 {
-    public sealed class RabitMQBus : IEventBus
+    public class RabitMQBus : IEventBus
     {
         private readonly IMediator _mediator;
         private readonly Dictionary<string, List<Type>> _handler;
@@ -28,7 +28,7 @@ namespace MicroRabit.Infra.Bus
 
         public Task SendCommand<T>(T command) where T : Command
         {
-            return _mediator.Send(command);
+             return _mediator.Send(command);
         }
 
         public void Puslish<T>(T @event) where T : Event

@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace MicroRabit.Banking.Domain.Models
 {
-   public class Account
+
+    public class Account
     {
-        int AccountId { get; set; }
-        string AccountType { get; set; }
-        decimal AccountBalance { get; set; }
+       public int AccountId { get; set; }
+       public string AccountType { get; set; }
+       public decimal AccountBalance { get; set; }
     }
 }

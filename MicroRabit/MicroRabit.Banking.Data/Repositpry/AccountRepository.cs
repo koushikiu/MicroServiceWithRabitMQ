@@ -17,7 +17,7 @@ namespace MicroRabit.Banking.Data.Repositpry
 
         public IEnumerable<Account> GetAccounts()
         {
-            return _bankingDbContext.Accounts;
+             return _bankingDbContext.Accounts;
         }
     }
 }
