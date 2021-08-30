@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MicroRabit.Banking.Application.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -32,6 +33,13 @@ namespace MicroRabit.Banking.API.Controllers
             return Ok(_accountService.GetAccounts());
         }
 
+        [HttpPost]
+       
+        public IActionResult Post([FromBody] AccountTransfer accountTransfer)
+        {
+            _accountService.Transfer(accountTransfer);
+            return Ok(accountTransfer);
+        }
 
 
         //[HttpGet]
