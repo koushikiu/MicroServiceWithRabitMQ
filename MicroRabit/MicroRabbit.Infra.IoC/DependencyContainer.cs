@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using MicroRabit.Banking.Application.services;
 using MicroRabit.Banking.Data.Context;
-using MicroRabit.Banking.Data.Repositpry;
+using MicroRabit.Banking.Data.Repository;
 using MicroRabit.Banking.Domain.CommandHandler;
 using MicroRabit.Banking.Domain.Commands;
 using MicroRabit.Domain.Core.Bus;

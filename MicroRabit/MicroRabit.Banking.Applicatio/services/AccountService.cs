@@ -1,5 +1,5 @@
 ﻿using MicroRabit.Banking.Application.Models;
-using MicroRabit.Banking.Data.Repositpry;
+using MicroRabit.Banking.Data.Repository;
 using MicroRabit.Banking.Domain.Commands;
 using MicroRabit.Banking.Domain.Models;
 using MicroRabit.Domain.Core.Bus;

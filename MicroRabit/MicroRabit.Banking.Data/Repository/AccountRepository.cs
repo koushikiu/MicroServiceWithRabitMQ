@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MicroRabit.Banking.Data.Repositpry
+namespace MicroRabit.Banking.Data.Repository
 {
     public class AccountRepository : IAccountRepository
     {
