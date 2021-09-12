@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using MicroRabbit.Transfer.Data.Context;
 using MicroRabit.Banking.Application.services;
 using MicroRabit.Banking.Data.Context;
 using MicroRabit.Banking.Data.Repository;
@@ -29,6 +30,7 @@ namespace MicroRabit.Infra.IoC
             //Data
             services.AddTransient<IAccountRepository, AccountRepository>();
             services.AddTransient<BankingDbContext>();
+            services.AddTransient<TransferDbContext>();
         }
     }
 }
