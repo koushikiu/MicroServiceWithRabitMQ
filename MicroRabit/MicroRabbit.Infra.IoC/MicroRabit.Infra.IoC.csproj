@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MicroRabbit.Transfer.Application\MicroRabbit.Transfer.Application.csproj" />
     <ProjectReference Include="..\MicroRabbit.Transfer.Data\MicroRabbit.Transfer.Data.csproj" />
     <ProjectReference Include="..\MicroRabit.Banking.Applicatio\MicroRabit.Banking.Application.csproj" />
     <ProjectReference Include="..\MicroRabit.Banking.Data\MicroRabit.Banking.Data.csproj" />
